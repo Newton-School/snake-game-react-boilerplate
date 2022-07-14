@@ -1,0 +1,71 @@
+#main{
+  height: 100vh;
+  width: 100vw;
+  background: url("../snake-background.jpg");
+  background-size: contain;
+  overflow: hidden;
+}
+
+.board {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1.5rem solid #538633;
+  background-color: #a4d348;
+}
+
+.snake {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  border: 1px solid #a4d348;
+  z-index: 2;
+}
+
+.snake-container {
+  margin: 1px;
+}
+
+.food {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  border-radius: 7px;
+  background-color: #e81616;
+  margin: 1px;
+  z-index: 1;
+}
+
+.select-difficulty-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-stats-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #4a752c;
+  border-left: 1.5rem solid #4a752c;
+  border-right: 1.5rem solid #4a752c;
+}
+
+.game-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  margin-top: 3rem;
+}
+
+.snake-image {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.second-snake {
+  background-color: #bb1068 !important;
+}
